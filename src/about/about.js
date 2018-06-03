@@ -1,14 +1,14 @@
-import './scss/app.scss';
+import '../scss/app.scss';
 
 async function getComponent() {
   const button = document.createElement('a');
   const container = document.createElement('div');
   container.className = 'container';
   container.appendChild(button);
-  button.innerHTML = 'Go to About Page!';
-  button.href = 'about.html';
+  button.innerHTML = 'Back to Home Page!';
+  button.href = '/';
   button.role = 'button';
-  button.className = 'btn btn-primary';
+  button.className = 'btn btn-success';
   return container;
 }
 

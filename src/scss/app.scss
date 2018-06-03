@@ -1,0 +1,7 @@
+@import "~bootstrap/scss/bootstrap";
+
+div {
+  &.container {
+    margin-top: 2em;
+  }
+}

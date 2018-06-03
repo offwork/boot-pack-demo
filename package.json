@@ -1,0 +1,60 @@
+{
+  "name": "boot-pack-demo",
+  "version": "1.0.0",
+  "description": "Simple bootstrap+multi pages app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development --config webpack.config.js",
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/offwork/boot-pack-demo.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "webpack",
+    "multi pages app"
+  ],
+  "author": "Kerem Ozdemir @offwork",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/offwork/boot-pack-demo/issues"
+  },
+  "homepage": "https://github.com/offwork/boot-pack-demo#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.5.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "exports-loader": "^0.7.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "bootstrap": "^4.1.1",
+    "gh-pages": "^1.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
